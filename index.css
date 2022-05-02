@@ -1,0 +1,33 @@
+html,
+body {
+  /* background-color: aqua; */
+  height: 100%;
+  margin: 0;
+}
+
+.hero {
+  min-width: 100vw;
+  position: absolute;
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  margin-left: 10%;
+}
+
+.links {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
