@@ -5,29 +5,69 @@ body {
   margin: 0;
 }
 
-.hero {
-  min-width: 100vw;
-  position: absolute;
-  background-color: #1F2937;
-}
-
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #1F2937;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 28px;
   color: #F9FAF8;
-  margin-left: 10%;
+
+}
+
+.links li {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero {
+  display: flex;
+  background-color: #1F2937;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.hero-text {
+  width: 400px;
+  margin-right: 10%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  flex-wrap: wrap;
+}
+
+.hero-text button {
+  background-color: #3882F6;
+  border: none;
+  border-color: #3882F6;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  color: white;
+
 }
 
 .links {
-  font-size: 18px;
-  color: #E5E7EB;
-  margin-right: 10%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style-type: none;
+  padding-left: 0%;
+  width: 25%;
+}
+
+img {
+  height: 300px;
+  width: 500px;
 }
