@@ -1,11 +1,10 @@
 html,
 body {
-  /* background-color: aqua; */
   height: 100%;
   margin: 0;
 }
 
-.header {
+.header-section {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -15,15 +14,15 @@ body {
 .logo {
   font-size: 28px;
   color: #F9FAF8;
-
 }
 
 .links li {
   font-size: 18px;
   color: #E5E7EB;
+  cursor: pointer;
 }
 
-.hero {
+.hero-section {
   display: flex;
   background-color: #1F2937;
   justify-content: center;
@@ -56,7 +55,7 @@ body {
   width: 100px;
   height: 30px;
   color: white;
-
+  cursor: pointer;
 }
 
 .links {
@@ -69,5 +68,105 @@ body {
 
 img {
   height: 300px;
-  width: 500px;
+  width: 400px;
+}
+
+.information-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.information-section h1 {
+  margin: 50px auto;
+}
+
+.picture-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 350px;
+  margin-bottom: 5%;
+}
+
+.picture-container {
+  width: 200px;
+}
+
+.picture {
+  border: 5px solid #3882F6;
+  border-radius: 10%;
+  height: 150px;
+  cursor: pointer;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 50px;
+}
+
+.quote-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto 30%;
+}
+
+.quote-text h2 {
+  font: italic 36px "Fira Sans", serif;
+  color: #3c434d;
+  margin: 0%;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  color: #1F2937;
+  font-weight: bold;
+}
+
+.signup-section {
+  margin: 4em;
+
+}
+
+.signup-container {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 21%;
+  margin-right: 21%;
+  padding: 30px 150px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.signup-bold-text {
+  font-family: sans-serif;
+  color: white;
+}
+
+.signup-bold-text h3 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.signup-button button {
+  height: 40px;
+  width: 100px;
+  background-color: #3882F6;
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1F2937;
+  color: white;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

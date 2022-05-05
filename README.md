@@ -8,3 +8,6 @@ In this project you will see my knowledge of:
     - HTML (elements, tags, lists, images)
     - CSS (foundations, box model, flexbox)
 
+Credits for images used from the internet:
+    - Crescent Moon pic
+        - nousnou iwasaki aka @nousnou
